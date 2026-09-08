@@ -1,0 +1,32 @@
+body {
+    background-color: #ebf2f9;
+}
+
+ header {
+    display: flex;
+    flex-direction: row;
+    gap: 800px;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #cce4ef;
+    gap: 200px;
+    margin: 10px;
+}
+
+#inicio h2 {
+    font-size: 50px;
+}
+#opcoes {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.destaque {
+    color: red;
+}
