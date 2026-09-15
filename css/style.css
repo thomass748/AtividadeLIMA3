@@ -1,32 +1,131 @@
 body {
-    background-color: #ebf2f9;
+    background-color: rgb(248, 239, 239);
 }
 
  header {
     display: flex;
     flex-direction: row;
-    gap: 800px;
+    gap: 580px;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    margin-top: 0px;
+    font-size: 50px;
+    margin-left: 40px;
+}
+
+header p {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+}
+
+#opcoes {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+}
+
+#opcoes p {
+    font-family: sans-serif;
+    font-size: 15px;
 }
 
 #inicio {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #cce4ef;
-    gap: 200px;
-    margin: 10px;
+    background-color: rgb(247, 221, 221);
+    gap: 100px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    line-height: 95px;
 }
 
 #inicio h2 {
-    font-size: 50px;
-}
-#opcoes {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    align-items: center;
+    font-size: 130px;
+    margin: 0;
+    margin-left: 20px;
 }
 
+#inicio p {
+    margin: 0;
+    margin-left: 20px;
+}
+
+#texto-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+#descricao-inicio {
+    font-size: 23px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+#imagem-inicio img {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    margin-right: 50px;
+}
+
+#galeria h2 {
+    font-size: 80px;
+    margin-top: 0px;
+}
+
+#galeria section {
+    margin-left: 40px;
+}
+
+#galeria img {
+    width: 350px;
+    height: 250px;
+}
+
+#img-galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    margin: 15px;
+}
+
+.card h3 {
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.card p {
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #272626ae;
+}
+
+.card article {
+    background-color: gray;
+}
 .destaque {
     color: red;
+    font-family: 'Inter', sans-serif;
+}
+
+footer p {
+    color: #282626ae;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    margin: 25px;
+    margin-left: 50px;
 }
